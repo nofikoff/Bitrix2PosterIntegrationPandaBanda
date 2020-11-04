@@ -18,7 +18,7 @@
 </style>
 <?php
 
-
+require($_SERVER["DOCUMENT_ROOT"] . "/novikov/keys.php");
 require($_SERVER["DOCUMENT_ROOT"] . "/novikov/config.php");
 
 if (!$USER->IsAdmin() and $_SERVER['HTTP_HOST'] !== 'pandabanda.loc') {
